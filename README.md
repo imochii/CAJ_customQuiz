@@ -5,12 +5,10 @@
 
 
 
-
 ## Languages Used 
 // ---------------------- //
 * C++
 * CMake
-
 
 
 ## Has-A Relationship
@@ -20,11 +18,9 @@
 * In this project, the Quiz program stores `Question` objects as components inside a `Quiz` class.
 
 
-
 ## Question Class
 // ---------------------- //
 * `Question` has a vector of `answer`s (where `answer` is a struct).
-
 
 
 ## Quiz Class
@@ -34,17 +30,14 @@
 * `Quiz` methods are defined in the same order in the .cpp file as they are declared in the header file.
 
 
-
 ## Main program
 // ---------------------- //
 * The main program declares a `Quiz` object and makes a single call to `takeQuiz`.
 
 
-
 ## Testing program
 // ---------------------- //
 * `Main` function creates `Question` and `Quiz` objects and calls their methods to ensure that all the functionality works correctly.
-
 
 
 ## Quiz Questions
@@ -57,7 +50,6 @@
   6. "Now for a hard one: This thing all things devours...Birds, beasts, trees, flowers...Gnaws iron, bites steel...Grinds hard stones to meal...Slays king, ruins town...And beats     mountains down. What is it?..."
 
 
-
 ## Quiz Answers
 // ---------------------- //
   1. b
@@ -68,12 +60,10 @@
   6. b
 
 
-
 ## Sources
 // ---------------------- //
 * https://www.cliffsnotes.com/cliffsnotes/subjects/literature/what-are-the-riddles-that-gollum-asked-bilbo-in-the-hobbit
 * https://www.rd.com/list/easy-riddles/
-
 
 
 ## Other contributers
