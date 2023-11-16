@@ -1,60 +1,65 @@
-// Cat Jones & Tyler Eisenmenger
+// C.J & T.E //
 
-# Custom Quiz
+## Custom Quiz Description
+// ---------------------- //
 
-Create your own quiz to test your knowledge!
 
-For this project, you will use C++ classes with Has-A (component) relationships.
+*
 
-Note that the starter code for this project does not compile. You will need to start completing TODOs before the program will run.
+## Languages Used 
+// ---------------------- //
+* C++
+* CMake
 
-You may work individually or with a partner of your choosing.
-
-## Setup
-Use this Guided Project template to create a new repository (see [GitHub-with-CLion](https://github.com/uvmcs2300f2023/GitHub-with-CLion) repo for directions).
-**Your repository must be named with the convention: Custom-Quiz-netid**, where netid is your UVM NetID username.
-* If you are collaborating, the format is Custom-Quiz-netid1-netid2. Have one partner create the repository and give the other partner access on GitHub: on the repository page, go to the Settings tab, choose Manage Access, and add the person with their GitHub username.
-
-Remember to commit and push frequently.
+*
 
 ## Has-A Relationship
-Two classes in C++ have a Has-A relationship when at least one object of one class is a field of the other class.
-The class whose object is a field is called a *component* class.
+// ---------------------- //
+* Two classes in C++ have a Has-A relationship when at least one object of one class is a field of the other class.
+* The class whose object is a field is called a *component* class.
+* In this project, the Quiz program stores `Question` objects as components inside a `Quiz` class.
 
-For this project, you will complete the Quiz program which stores `Question` objects as components inside a `Quiz` class.
-* Note that this project has vectors of components, but it is possible to have a component be a single object.
+*
 
-### Question Class
-Look through the `Question` header and .cpp files. Notice that a `Question` has a vector of `answer`s (where `answer` is a struct).
+## Question Class
+// ---------------------- //
+* `Question` has a vector of `answer`s (where `answer` is a struct).
 
-### Quiz Class
-Look through the `Quiz` header and .cpp files. Complete the TODO comments in the header file and finish implementing the .cpp file.
-* Your constructor should use an initializer list like the `Question` default constructor does.
-* The `removeQuestion` methods should have similar functionality as the `Question` class `removeAnswer` methods.
-* Note that the methods should be defined in the same order in the .cpp file as they are declared in the header file.
-* Note that the two longer methods have been partially implemented for you.
+*
 
-### Main program
-The main program declares a `Quiz` object and makes a single call to `takeQuiz`.
+## Quiz Class
+// ---------------------- //
+* `Quiz` constructor uses an initializer list, like the `Question` default constructor does.
+* `Quiz` `removeQuestion` methods have similar functionality as the `Question` class `removeAnswer` methods.
+* `Quiz` methods are defined in the same order in the .cpp file as they are declared in the header file.
 
-**Create your own quiz data file** and modify the `takeQuiz` method call so that the program runs your own custom quiz.
-* Your quiz should have at least five questions.
-* Your quiz questions should have at least two different numbers of answers and at least two different point values.
+*
 
-### Testing program
-Create a `testing.cpp` file and put a `main` function in it that creates `Question` and `Quiz` objects and calls their methods (especially the methods not used in `takeQuiz`) to ensure that all the functionality works correctly.
-* Once you create `testing.cpp`, uncomment the line in `CMakeLists.txt` that will create an executable for the testing program. You will be able to choose between the main program and the testing program through the dropdown menu between the Build and Run buttons in CLion.
+## Main program
+// ---------------------- //
+* The main program declares a `Quiz` object and makes a single call to `takeQuiz`.
 
-## Questions
-Answer the following prompts here in your `README.md` file:
-* Give three examples of classes that would make sense to implement with the Has-A relationship (e.g. Car has an Engine):
-  1.  Class Has-A Quiz
-  2.  Class Has-A Grade
-  3.  Class Has-A Average
-* Describe in your own words the benefit(s) of the component relationship.
-It reduces program complexity and allows testing and collaboration between team members easier by splitting up and isolating different functions. It can also help reduce redundancy of our code by streamlining inheritance between different classes. 
+*
+
+## Testing program
+// ---------------------- //
+* `Main` function creates `Question` and `Quiz` objects and calls their methods to ensure that all the functionality works correctly.
+
+*
+
+## Quiz Questions
+// ---------------------- //
+  1. "Let's start you off easy...what comes at the end of a rainbow?"
+  2. "I am the rare case when today comes before yesterday. What am I?..."
+  3. "What's harder to catch the faster you run?..."
+  4. "Voiceless it cries, wingless flutters, toothless bites, mouthless mutters. What be I?..."
+  5. "What's the meaning of life?..."
+  6. "Now for a hard one: This thing all things devours...Birds, beasts, trees, flowers...Gnaws iron, bites steel...Grinds hard stones to meal...Slays king, ruins town...And beats     mountains down. What is it?..."
+
+*
 
 ## Quiz Answers
+// ---------------------- //
   1. b
   2. c
   3. d
@@ -62,16 +67,16 @@ It reduces program complexity and allows testing and collaboration between team 
   5. d
   6. b
 
+*
+
 ## Sources
+// ---------------------- //
 * https://www.cliffsnotes.com/cliffsnotes/subjects/literature/what-are-the-riddles-that-gollum-asked-bilbo-in-the-hobbit
 * https://www.rd.com/list/easy-riddles/
 
-## Grading
+*
 
-If you are collaborating, both partners have to submit on Gradescope.
-
-### Grading Rubric
-- [ ] (8 pts) Complete `Quiz` class
-- [ ] (4 pts) Create custom Quiz and use it in the main program
-- [ ] (5 ~~pts) Testing program
-- [ ] (3 pts) Answer questio~~ns in `README.md`
+## Other contributers
+// ---------------------- //
+* Tyler Eisenmenger
+* Lisa Dion
