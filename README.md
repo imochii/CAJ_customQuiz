@@ -2,7 +2,7 @@
 
 ## Custom Quiz Description
 // ---------------------- //
-
+This program utilizes inheritance relationships and command-line imput to allow the user to take a quiz of riddles. Equipped with functional input validation, this program formats and displays a question and its corresponding answer choices. Once the user has provided valid input, the program evaluates the user's input against the answer key and informs the user if they were correct or not. At the end of the quiz, the program will calculate and display the number of questions the user answered correctly. 
 
 
 ## Languages Used 
@@ -60,13 +60,14 @@
   6. b
 
 
+## Contributers
+// ---------------------- //
+* Catherine J. (contributed to CMakeLists.txt, Quiz.cpp, QuizData.txt, testing.cpp, OurQuizData.txt)
+* Tyler E. (contributed to CMakeLists.txt, Quiz.cpp, QuizData.txt, testing.cpp, OurQuizData.txt)
+* Lisa D. (contributed Question.cpp, Question.h, Quiz.cpp, Quiz.h, main.cpp, QuizData.txt)
+
+
 ## Sources
 // ---------------------- //
 * https://www.cliffsnotes.com/cliffsnotes/subjects/literature/what-are-the-riddles-that-gollum-asked-bilbo-in-the-hobbit
 * https://www.rd.com/list/easy-riddles/
-
-
-## Other contributers
-// ---------------------- //
-* Tyler Eisenmenger
-* Lisa Dion
