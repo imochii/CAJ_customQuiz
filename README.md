@@ -2,7 +2,7 @@
 
 ## Custom Quiz Description
 // ---------------------- //
-This program utilizes inheritance relationships and command-line imput to allow the user to take a quiz of riddles. Equipped with functional input validation, this program formats and displays a question and its corresponding answer choices. Once the user has provided valid input, the program evaluates the user's input against the answer key and informs the user if they were correct or not. At the end of the quiz, the program will calculate and display the number of questions the user answered correctly. 
+* This program utilizes inheritance relationships and command-line imput to allow the user to take a quiz of riddles. Equipped with functional input validation, this program formats and displays a question and its corresponding answer choices. Once the user has provided valid input, the program evaluates the user's input against the answer key and informs the user if they were correct or not. At the end of the quiz, the program will calculate and display the number of questions the user answered correctly. 
 
 
 ## Languages Used 
